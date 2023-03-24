@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Unit Conversion</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-box">
+        <div class="input-container">
+          <button class="btn theme-changer">Dark/Light</button>
+          <h1 class="title">Metric/Imperial Unit Conversion</h1>
+          <input type="number" class="number-input" />
+          <button class="btn convert-button">Convert</button>
+        </div>
+        <div class="output-container">
+          <!--dark-mode_output-container -->
+          <div class="unit-container">
+            <!--dark-mode_unit-container -->
+            <h2 class="unit-type">Length (Meter/Feet)</h2>
+            <!--dark-mode_unit-type -->
+            <p class="answer-text length-p"></p>
+            <!--dark-mode_answer-text -->
+          </div>
+          <div class="unit-container">
+            <h2 class="unit-type">Volume (Liters/Gallons)</h2>
+            <p class="answer-text volume-p"></p>
+          </div>
+          <div class="unit-container">
+            <h2 class="unit-type">Mass (Kilograms/Pounds)</h2>
+            <p class="answer-text mass-p"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
